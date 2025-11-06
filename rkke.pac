@@ -7,6 +7,7 @@ shExpMatch("https://")
 
 alert('${host} = ${dnsResolve(host)}')
 alert("Error: shoUldn't reach this clause.")
+TimeRanges(0, 0, 0, 0, 0, 30)
 
 
 
