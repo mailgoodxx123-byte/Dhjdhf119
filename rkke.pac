@@ -5,5 +5,9 @@ convert_addr("192.168.0.1");
 dsnDomainLevels("www.youtube.com");
 shExpMatch("https://")
 
+alert('${host} = ${dnsResolve(host)}')
+alert("Error: shoUldn't reach this clause.")
+
+
 
 }
